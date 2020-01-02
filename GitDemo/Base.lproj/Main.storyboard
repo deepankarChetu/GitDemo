@@ -15,21 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXG-YR-zkP">
-                                <rect key="frame" x="85" y="206" width="244" height="71"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63f-nm-6Ws">
+                                <rect key="frame" x="58" y="161" width="299" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="qxD-hA-tuR"/>
+                                    <constraint firstAttribute="height" constant="60" id="3bo-W3-ZYd"/>
+                                    <constraint firstAttribute="width" constant="299" id="yyK-Hx-mko"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="xXG-YR-zkP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="RXs-aH-jsH"/>
-                            <constraint firstItem="xXG-YR-zkP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="162" id="S2g-Mr-sZ7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xXG-YR-zkP" secondAttribute="trailing" constant="85" id="hyq-nu-8xi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="63f-nm-6Ws" secondAttribute="trailing" constant="57" id="7gr-8j-4DR"/>
+                            <constraint firstItem="63f-nm-6Ws" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="117" id="imu-Ov-MWx"/>
+                            <constraint firstItem="63f-nm-6Ws" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="pOV-3d-wsG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
