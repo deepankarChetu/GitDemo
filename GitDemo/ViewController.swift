@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("This is Git Demo tutorial")
+        print("Final ")
     }
 
     override func viewWillAppear(_ animated: Bool) {
